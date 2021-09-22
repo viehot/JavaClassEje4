@@ -22,6 +22,35 @@ public class Pajaro {
         this.age = age;
         this.pluma = pluma;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
+
+    public Integer getPluma() {
+        return pluma;
+    }
+
+    public void setPluma(Integer pluma) {
+        this.pluma = pluma;
+    }
+
+    @Override
+    public String toString() {
+        return "Pajaro{" + "name=" + name + ", age=" + age + ", pluma=" + pluma + '}';
+    }
     
     
 }
