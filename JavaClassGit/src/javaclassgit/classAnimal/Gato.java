@@ -61,7 +61,5 @@ public class Gato {
     public String toString() {
         return "Gato{" + "Raza=" + Raza + ", Edad=" + Edad + ", comida=" + comida + ", peso=" + peso + '}';
     }
-    
-    
             
 }
