@@ -13,6 +13,15 @@ public class Pajaro {
     private String name;
     private Integer age;
     private Integer pluma;
+
+    public Pajaro() {
+    }
+
+    public Pajaro(String name, Integer age, Integer pluma) {
+        this.name = name;
+        this.age = age;
+        this.pluma = pluma;
+    }
     
     
 }
