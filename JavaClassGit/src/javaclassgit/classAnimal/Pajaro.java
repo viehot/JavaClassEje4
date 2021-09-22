@@ -10,5 +10,9 @@ package javaclassgit.classAnimal;
  * @author piriv
  */
 public class Pajaro {
+    private String name;
+    private Integer age;
+    private Integer pluma;
+    
     
 }
